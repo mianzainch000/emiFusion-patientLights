@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 8px;
+  /* visibility: hidden; */
+}
+.boxContainer {
+  width: 517px;
+  height: 259px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.top_bottomContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+.top_bottomBox {
+  width: 125px;
+  height: 62px;
+  background-color: #012e46;
+  border-radius: 10px;
+}
+.left_rightContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+.right_leftBox {
+  width: 62px;
+  height: 125px;
+  background-color: #012e46;
+  border-radius: 10px;
+}
+.leftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  row-gap: 12px;
+  flex-wrap: wrap;
+  width: 132px;
+}
+.light {
+  background-color: aqua;
+}
+
